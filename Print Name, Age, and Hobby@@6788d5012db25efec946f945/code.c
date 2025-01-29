@@ -7,7 +7,9 @@ int main () {
     char [50];
     char c;
     scanf("%s",&c);
-    printf("Name: %s\nAge: %d\nHobby: %s",a,b,c);
+    printf("Name: %s",a)
+    printf("Age: %d",b)
+    printf("Hobby: %s",c)
     return 0;
 
 }
