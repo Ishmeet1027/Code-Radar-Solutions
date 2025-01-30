@@ -1,8 +1,8 @@
 #include <stdio.h>
 int main () {
-    int a,b;
+    float a,b;
     char c;
-    scanf("%d %d %c",&a,&b,&c);
-    (c=='+')?printf("%d",a+b):(c=='-')? printf("%d",a-b):(c=='*')? printf("%d",a*b):printf("%d",a/b);
+    scanf("%f %f %c",&a,&b,&c);
+    (c=='+')?printf("%f",a+b):(c=='-')? printf("%f",a-b):(c=='*')? printf("%f",a*b):printf("%f",a/b);
     return 0;
 }
