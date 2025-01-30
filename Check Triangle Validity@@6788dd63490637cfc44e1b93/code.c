@@ -15,10 +15,10 @@ int main () {
             printf("Invalid");
         }
     } else {
-        if (c>a && c>b) {
-        printf("Valid");
-    } else {
-        printf("Invalid");
+        if (a*a + b*b == c*c) {
+            printf("Valid");
+    }   else {
+            printf("Invalid");
     }
     return 0;
 }
