@@ -1,6 +1,6 @@
 #include <stdio.h>
 int main () {
-    Float a;
+    float a;
     scanf("%f",&a);
     if (a<=18) {
         printf("Eligible");
