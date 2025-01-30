@@ -3,6 +3,6 @@ int main () {
     float a,b;
     char c;
     scanf("%f %f %c",&a,&b,&c);
-    (c=='+')?printf("%f",a+b):(c=='-')? printf("%f",a-b):(c=='*')? printf("%f",a*b):printf("%f",a/b);
+    (c=='+')?printf("%.0f",a+b):(c=='-')? printf("%.0f",a-b):(c=='*')? printf("%.0f",a*b):printf("%.0f",a/b);
     return 0;
 }
