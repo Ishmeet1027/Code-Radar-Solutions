@@ -13,7 +13,7 @@ int main () {
     } else if (a=='F'){
         printf("Fail");
     } else {
-        printf("Invaild grade");
+        printf("Invaild Grade");
     }
     return 0;
 }
