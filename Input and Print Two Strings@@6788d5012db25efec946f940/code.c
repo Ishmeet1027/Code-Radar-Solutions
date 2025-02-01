@@ -1,8 +1,8 @@
 #include <stdio.h>
 int main () {
-    char[50];
-    char a;
-    scanf("%s",&a);
-    printf("You entered: %[^/n]",a);
+    char [50];
+    char a,b;
+    scanf("%[^\n] %[^\n]",a,b);
+    printf("%s and %s",,a,b);
     return 0;
 }
