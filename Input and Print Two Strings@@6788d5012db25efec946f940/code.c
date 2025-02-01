@@ -1,6 +1,7 @@
 #include <stdio.h>
 int main () {
-    char [50];
+    char a[80];
+    char b[80];
     char a,b;
     scanf("%[^\n] %[^\n]",&a,&b);
     printf("You entered: %s and %s",a,b);
