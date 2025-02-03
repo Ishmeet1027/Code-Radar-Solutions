@@ -1,5 +1,8 @@
 #include <stdio.h>
 int main () {
+    int b;
+    scanf("%d",&b);
+    printf("Digit");
     char a;
     scanf("%c",&a);
     if (a=='a' || a=='e' || a=='i' || a=='O' || a=='u') {
