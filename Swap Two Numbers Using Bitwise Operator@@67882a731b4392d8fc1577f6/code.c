@@ -2,7 +2,6 @@
 int main () {
     int a,b;
     scanf("%d %d",&a,&b);
-    int c = b,a ;
-    printf("%d %d",c);
+    printf("%d %d",b,a);
     return 0;
 }
