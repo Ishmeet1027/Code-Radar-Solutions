@@ -7,9 +7,9 @@ int main () {
     } else if (a=='!' || a=='@' || a=='#' || a=='$' || a=='%' || a=='^' || a=='&' || a=='*') {
         printf("Special Character");
     } else if (a>=97 && a<=122){
-        printf("Digit");
-    } else {
         printf("Consonant");
+    } else {
+        printf("Digit");
     }
     return 0;
 }
