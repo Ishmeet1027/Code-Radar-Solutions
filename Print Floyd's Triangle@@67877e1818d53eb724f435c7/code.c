@@ -8,5 +8,5 @@ int main () {
             n++ ;
         }
     }
-    reutrn 0;
+    return 0;
 }
