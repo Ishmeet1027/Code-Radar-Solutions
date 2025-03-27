@@ -17,7 +17,7 @@ void factorialRange(int a, int b) {
     }
 
     for (int i = a; i <= b; i++) {
-        printf("%d! = %lld\n", i, factorial(i));
+        printf("%lld\n", factorial(i));
     }
 }
 
