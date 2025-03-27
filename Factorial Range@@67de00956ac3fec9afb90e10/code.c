@@ -1,7 +1,6 @@
 #include <stdio.h>
 
-// Function to compute factorial of a number
-long long factorial(int n) {
+int long factorial(int n) {
     long long fact = 1;
     for (int i = 1; i <= n; i++) {
         fact *= i;
