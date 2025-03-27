@@ -5,4 +5,5 @@ int factorialRange (int a, int b) {
         factorialRange = factorialRange*i;
         return factorialRange ;
     }
+    printf("%d\n",factorailRange);
 }
