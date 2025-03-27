@@ -1,0 +1,25 @@
+#include <stdio.h>
+
+// Function to find the friend who receives the prank gift
+int findPrankReceiver(int n, int m, int s) {
+    int prankReceiver = (s + m - 1) % n;
+    return (prankReceiver == 0) ? n : prankReceiver;
+}
+
+// int main() {
+//     int t;
+//     scanf("%d", &t);
+
+//     while (t--) {
+//         int n, m, s;
+//         scanf("%d %d %d", &n, &m, &s);
+
+//         // Call function to get prank gift receiver
+//         int prankFriend = findPrankReceiver(n, m, s);
+
+//         // Print the friend number
+//         printf("%d\n", prankFriend);
+//     }
+
+//     return 0;
+// }
