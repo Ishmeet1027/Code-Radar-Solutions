@@ -1,8 +1,8 @@
 #include<stdio.h>
 int factorialRange (int a, int b) {
-    int fact =1;
+    int factorialRange =1;
     for (int i=a;i<=b;i++) {
-        fact = fact*fact(a-1);
-        return 0 ;
+        factorialRange = factorialRange*factorialRange(a-1);
+        return factorialRange ;
     }
 }
