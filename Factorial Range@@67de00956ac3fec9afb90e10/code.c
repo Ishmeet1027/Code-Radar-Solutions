@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 int long factorial(int n) {
-    long long fact = 1;
+    int long fact = 1;
     for (int i = 1; i <= n; i++) {
         fact *= i;
     }
