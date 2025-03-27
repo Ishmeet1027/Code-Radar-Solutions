@@ -8,7 +8,6 @@ int long factorial(int n) {
     return fact;
 }
 
-// Function to print factorials of numbers in the range [a, b]
 void factorialRange(int a, int b) {
     if (a > b || a < 0 || b < 0) {
         printf("Invalid range\n");
@@ -16,7 +15,7 @@ void factorialRange(int a, int b) {
     }
 
     for (int i = a; i <= b; i++) {
-        printf("%lld\n", factorial(i));
+        printf("%ld\n", factorial(i));
     }
 }
 
