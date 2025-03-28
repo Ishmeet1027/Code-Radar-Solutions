@@ -1,5 +1,5 @@
 #include<stdio.h>
-int insertionSort (int arr[], int n) {
+int selectionSort (int arr[], int n) {
     int i =0;
     while (i<n-1) {
         if (arr[i]>arr[i+1]) {
