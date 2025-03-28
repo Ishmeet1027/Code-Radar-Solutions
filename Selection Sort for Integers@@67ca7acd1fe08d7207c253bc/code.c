@@ -1,6 +1,6 @@
 #include<stdio.h>
 int selectionSort(int arr, int n) {
-    i =0;
+    int i =0;
     while(i<n-1) {
         if (arr[i]>arr[i+1]) {
             int temp;
