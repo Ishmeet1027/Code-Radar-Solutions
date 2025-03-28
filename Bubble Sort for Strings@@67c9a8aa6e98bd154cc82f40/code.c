@@ -3,8 +3,8 @@ int bubbleSort(char arr[], int n) {
     while (i<n-1) {
         if (arr[i]>arr[i+1]) {
             char temp;
-            temp = arr[1];
-            arr[1] = arr[i+1];
+            temp = arr[i];
+            arr[i] = arr[i+1];
             arr[i+1] = temp;
             i=0;
         } else {
