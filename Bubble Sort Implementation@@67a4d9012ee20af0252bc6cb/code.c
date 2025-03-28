@@ -8,7 +8,7 @@ int bubbleSort(int arr[], int n) {
     }
     return 0;
 }
-int printArray(int arr[], n) {
+int printArray(int arr[], int n) {
     printf("%d ",arr[i]);
     return 0;
 }
