@@ -7,6 +7,9 @@ int bubbleSort(int arr[], int n) {
             temp = arr[i];
             arr[i] = arr[i+1];
             arr[i+1] = temp;
+            i = 0;
+        } else {
+            i++ ;
         }
     }
     return 0;
