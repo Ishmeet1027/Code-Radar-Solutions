@@ -9,6 +9,6 @@ int bubbleSort(arr, n) {
     return 0;
 }
 int printArray(arr, n) {
-    printf("%d ",max);
+    printf("%d ",arry[i]);
     return 0;
 }
