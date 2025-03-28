@@ -1,9 +1,12 @@
 #include<stdio.h>
 int bubbleSort(int arr[], int n) {
-    int max = arr[0];
-    for (int i=0;i<n;i++) {
-        if (arr[i]>max) {
-            max = arr[i];
+    int i =0;
+    while(i<n-1) {
+        if (arr[i]>arr[i+1]) {
+            int temp;
+            temp = arr[i];
+            arr[i] = arr[i+1];
+            arr[i+1] = temp;
         }
     }
     return 0;
