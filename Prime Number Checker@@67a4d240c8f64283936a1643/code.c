@@ -12,7 +12,7 @@
 
 #include <stdio.h>
 #include <math.h>
-
+int sqrt;
 int isPrime(int num) {
     if (num < 2) return 0; // 0 and 1 are not prime
     for (int i = 2; i <= sqrt(num); i++) { 
