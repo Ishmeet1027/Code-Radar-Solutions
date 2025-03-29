@@ -2,14 +2,8 @@ int isPrime( int num) {
     int prime;
     for (int i = 2;i<=num;i++) {
         if (num%i==0) {
-            prime =1;
-            break;
+            return 0;
         }
     }
-    if (prime != 1) {
-        printf("1");
-    } else {
-        printf("0");
-    }
-    return 0;
+    return 1;
 }
