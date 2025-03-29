@@ -7,9 +7,9 @@ int main () {
         for (int j =i;j<a;j++) {
             printf(" ");
         }
-        for (int k =1;k<=i-1;k++) {
-            printf("%d",c);
-            c++;
+        // for (int k =1;k<=i-1;k++) {
+        //     printf("%d",c);
+        //     c++;
         }
         printf("\n");
     }
