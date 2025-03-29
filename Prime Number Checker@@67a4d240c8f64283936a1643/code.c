@@ -1,7 +1,7 @@
 int isPrime( int num) {
     int prime;
-    for (int i =0;i<=t;i++) {
-        if (t%i==0) {
+    for (int i =0;i<=num;i++) {
+        if (num%i==0) {
             prime =1;
             break;
         }
