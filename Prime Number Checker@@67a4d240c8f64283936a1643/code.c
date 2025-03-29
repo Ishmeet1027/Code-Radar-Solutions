@@ -9,7 +9,7 @@ int isPrime( int num) {
     if (prime == 1) {
         printf("0");
     } else {
-        prnitf("1");
+        printf("1");
     }
     return 0;
 }
