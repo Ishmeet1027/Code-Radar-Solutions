@@ -1,11 +1,14 @@
-int fibonacciSeries (int n) {
-    for (int i =0;i<=n;i++) {
-        int a,b;
-        a = 0;
-        b = 1;
-        int c = 1;
-        int fib = fib(n-1);
-    }
-    return 0;
+#include <stdio.h>
 
+void fibonacciSeries(int n) {
+    int a = 0, b = 1, c;
+    printf("%d %d ", a, b); // Print first two Fibonacci numbers
+
+    for (int i = 2; i < n; i++) { 
+        c = a + b;
+        printf("%d ", c);
+        a = b;
+        b = c;
+    }
+    printf("\n");
 }
