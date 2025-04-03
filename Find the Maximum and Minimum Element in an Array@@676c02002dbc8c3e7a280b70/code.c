@@ -19,7 +19,7 @@ int main () {
         }
     }
     for (int i =1;i<a;i++) {
-        printf("%d %d",array[a],array[a]);
+        printf("%d %d",max,min);
     }
     return 0;
     
