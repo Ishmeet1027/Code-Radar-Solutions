@@ -18,7 +18,7 @@ int main () {
             min = array[i];
         }
     }
-    for (int i =1;i<a;i++) {
+    for (int i =1;i<=a;i++) {
         printf("%d %d",max,min);
     }
     return 0;
