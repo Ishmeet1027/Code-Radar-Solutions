@@ -7,7 +7,7 @@ int main () {
         scanf("%d",&array[i]);
     }
     for (int i =0;i<a;i++) {
-        int max = array[0]
+        int max = array[0];
         if (array[i]>max) {
             int temp;
             temp = array[i];
