@@ -6,6 +6,7 @@ int main () {
     for (int i =0;i<a;i++)  {
         scanf("%d",&array[i]);
     }
+    int max = array[0];
     for (int i =0;i<a;i++) {
         int max = array[0];
         if (array[i]>max) {
