@@ -14,12 +14,12 @@ int main () {
             temp = array[i];
             array[i] = array[i+1];
             array[i+1] = temp;
-            i =0;
+            i = 0;
         } else {
             i++;
         }
         
     }
-    printf("%d",max);
+    printf("%d",array[i]);
     return 0;
 }
