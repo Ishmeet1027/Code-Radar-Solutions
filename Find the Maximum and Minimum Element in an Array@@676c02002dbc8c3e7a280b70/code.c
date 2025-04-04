@@ -18,8 +18,6 @@ int main () {
             min = array[i];
         }
     }
-    for (int i =0;i<a;i++) {
-        printf("%d %d",max,min);
-    }
+    printf("%d %d",min,max);
     return 0;
 }
